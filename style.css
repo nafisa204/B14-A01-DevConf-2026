@@ -414,6 +414,143 @@ body{
 .newsletter-form button:hover{
     background-color: #6ca6c1;
 }
+
+
+/* Community Section */
+.community-section{
+    padding: 100px 80px;
+    background-color: #ffffff;
+}
+
+/* Main Box */
+.community-content{
+    position: relative;
+
+    max-width: 1200px;
+    min-height: 400px;
+
+    margin: 0 auto;
+
+    background-color: #0D1B2A;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    overflow: hidden;
+}
+
+/* Decorative circles */
+.community-content::before{
+    content: "";
+
+    position: absolute;
+
+    width: 250px;
+    height: 250px;
+
+    border: 1px solid #6ca6c1;
+    border-radius: 50%;
+
+    top: -100px;
+    left: -80px;
+
+    opacity: 0.4;
+}
+
+.community-content::after{
+    content: "";
+
+    position: absolute;
+
+    width: 300px;
+    height: 300px;
+
+    border: 1px solid #6ca6c1;
+    border-radius: 50%;
+
+    bottom: -150px;
+    right: -100px;
+
+    opacity: 0.4;
+}
+
+/* Caption */
+.community-caption{
+    color: #6ca6c1;
+
+    font-size: 14px;
+
+    letter-spacing: 3px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* Heading */
+.community-content h2{
+    color: #ffffff;
+
+    font-size: 48px;
+
+    text-transform: capitalize;
+
+    margin-bottom: 20px;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* Paragraph */
+.community-text{
+    color: #c4cbd2;
+
+    max-width: 550px;
+
+    line-height: 1.6;
+
+    font-size: 16px;
+
+    margin-bottom: 35px;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* Button */
+.community-btn{
+    text-decoration: none;
+
+    background-color: #ffffff;
+
+    color: #0D1B2A;
+
+    padding: 14px 30px;
+
+    border-radius: 30px;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+    position: relative;
+    z-index: 1;
+}
+
+.community-btn:hover{
+    background-color: #6ca6c1;
+
+    color: #ffffff;
+}
 /*                         footer              */
 .footer{
     background-color: #0D1B2A;
