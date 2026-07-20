@@ -551,6 +551,144 @@ body{
 
     color: #ffffff;
 }
+
+/* Stats Section */
+.stats-section{
+    padding: 120px 80px;
+    background-color: #0D1B2A;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Decorative background */
+.stats-section::before{
+    content: "";
+
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+
+    border: 1px solid rgba(108, 166, 193, 0.25);
+
+    border-radius: 50%;
+
+    top: -250px;
+    left: -150px;
+}
+
+.stats-section::after{
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border: 1px solid rgba(108, 166, 193, 0.2);
+
+    border-radius: 50%;
+
+    bottom: -300px;
+    right: -180px;
+}
+
+/* Content */
+.stats-content{
+    max-width: 1100px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+/* Caption */
+.stats-caption{
+    color: #6ca6c1;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 20px;
+}
+
+/* Heading */
+.stats-content h2{
+    color: #ffffff;
+
+    font-size: 48px;
+
+    line-height: 1.2;
+
+    margin-bottom: 25px;
+}
+
+/* Description */
+.stats-description{
+    max-width: 600px;
+
+    margin: 0 auto 60px;
+
+    color: #b8c2ca;
+
+    font-size: 16px;
+
+    line-height: 1.7;
+}
+
+/* Stats Container */
+.stats-container{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+/* Stat Card */
+.stat-card{
+    padding: 35px 20px;
+
+    background-color: rgba(255, 255, 255, 0.08);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+    border-radius: 16px;
+
+    backdrop-filter: blur(10px);
+
+    transition: 0.3s;
+}
+
+/* Hover */
+.stat-card:hover{
+    transform: translateY(-10px);
+
+    background-color: rgba(255, 255, 255, 0.13);
+
+    border-color: #6ca6c1;
+}
+
+/* Number */
+.stat-card h3{
+    color: #ffffff;
+
+    font-size: 42px;
+
+    margin-bottom: 10px;
+}
+
+/* Text */
+.stat-card p{
+    color: #b8c2ca;
+
+    font-size: 15px;
+}
 /*                         footer              */
 .footer{
     background-color: #0D1B2A;
