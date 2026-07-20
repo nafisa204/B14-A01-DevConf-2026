@@ -340,6 +340,79 @@ body{
     color: #8b5cf6;
     font-size: 20px;
     font-weight: 700;
+
+}
+
+
+/* newsletter */
+
+/* Newsletter Section */
+.newsletter-section{
+    padding: 100px 80px;
+    background-color: #f8fafb;
+}
+
+/* Content */
+.newsletter-content{
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Caption */
+.newsletter-content h3{
+    color: #6ca6c1;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+/* Heading */
+.newsletter-content h2{
+    color: #0D1B2A;
+    font-size: 42px;
+    margin-bottom: 18px;
+}
+
+/* Paragraph */
+.newsletter-content p{
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+/* Form */
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* Input */
+.newsletter-form input{
+    width: 350px;
+    padding: 15px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Button */
+.newsletter-form button{
+    border: none;
+    background-color: #0D1B2A;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover{
+    background-color: #6ca6c1;
 }
 /*                         footer              */
 .footer{
